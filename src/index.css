@@ -1,13 +1,15 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+   background-image: url('https://firebasestorage.googleapis.com/v0/b/dulcespecadoappweb.appspot.com/o/bg%20002.jpg?alt=media&token=49a64135-fd55-4198-aa25-79de2fecc084');
+   margin-left: 10%;
+   margin-right: 10% ;
+   margin-top: 0%;
+   margin-bottom: 0%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

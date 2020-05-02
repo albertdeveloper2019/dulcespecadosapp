@@ -1,15 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import Logo from './components/logo/index';
 import './App.css';
+import Header from './components//header/index'
+import Footer from './components/footer/index'
+import Dashboard from './components/dashboard/index'
+
 
 function App() {
   return (
-      <div className="App">
-          <div className="App-header">
-              {/* <img src={logo} className="App-logo" alt="logo" /> */}
-              <h2>Bienvenido a Dulces Pecados </h2>
-          </div>
-      </div>
+    <div>
+        <div>  <Header/> </div>
+        <div> <Dashboard/> </div>
+        <div> <Footer/> </div>
+    </div>   
   );
 
 }  // llave de app

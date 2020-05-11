@@ -16,6 +16,24 @@
   color: white;
 }
 
+.App-Links-home {
+  font-size: medium;
+  text-align: right;
+  text-decoration: none;
+  display:  flex;
+  flex-direction: column;
+  color: white;
+}
+
+.App-Links-contact {
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  display:  flex;
+  flex-direction: column;
+  color: white;
+}
+
 .App-Home {
   text-align: center;
   
@@ -25,14 +43,46 @@
    text-align: end;
 }
 
+.App-div-contact {
+  min-height: 70vh;
+}
+
 .App-cell-left {
   text-align: center;
 }
 
+.App-social-media-ws {
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  padding-top: 8%;
+  
+}
+
+.App-social-media-ig {
+  text-align: center;
+  color: white;
+  font-size: 110%;
+  padding-top: 8%;
+  
+}
+
 .App-cell-icons {
+  text-align: right;
+  font-size: xx-large;
+  padding-top: 3%;
+}
+
+.App-cell-icons2 {
   text-align: center;
   font-size: xx-large;
   padding-top: 3%;
+}
+
+.App-cell-icons3 {
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 3%; 
 }
 
 .App-header {
@@ -47,7 +97,18 @@
 }
 
 .App-dashboard {
-  min-height: 78vh;
+  min-height: 74vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-contact {
+  min-height: 114vh;
+  margin-top: initial;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,13 +129,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
